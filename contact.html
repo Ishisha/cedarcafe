@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- These meta tags are both essential! -->
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<title>Cedar Cafe</title><!-- Load custom css AFTER Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark">
+		<!-- add this bit to add logo to navbar -->
+		 <a class="navbar-brand" href="index.html"><img alt="" class="d-inline-block align-top" height="45" src="images/cedar-tree-logo.jpg" width="45"> Cedar Cafe</a> <!-- end code for adding logo to navbar -->
+		 <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="menu.html">Menu</a>
+				</li><!-- code below is for active link when you're on current page -->
+				<li class="nav-item active">
+					<a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+				</li><!-- code for active link/current page ends here-->
+			</ul>
+		</div>
+	</nav>
+	<div class="jumbotron-contact"></div>
+	<div class="flex-container">
+		<div class="row">
+			<div class="col-lg-6">
+				<br>
+				<br>
+				<h1 class="contact-info">VISIT US:</h1>
+				<p class="contact-info">123 Walker Street<br>
+				New York, New York 10013<br>
+				Phone: 212-555-5555<br>
+				Email: info@cedarcafe.com</p><!-- Button trigger modal -->
+				 <button class="btn btn-dark d-flex justify-content-end" data-target="#exampleModal" data-toggle="modal" type="button">SEE HOURS</button> <!-- Modal -->
+				<div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="exampleModal" role="dialog" tabindex="-1">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">Cedar Cafe HOURS</h5><button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+							</div>
+							<div class="modal-body">
+								Monday: CLOSED<br>
+								Tuesday: 12 pm - 10 pm<br>
+								Wednesday: 12 pm - 10 pm<br>
+								Thursday: 12 pm - 10 pm<br>
+								Friday: 12 pm - 11 pm<br>
+								Saturday: 12 pm - 11 pm<br>
+								Sunday: 1 pm - 10 pm
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6"><img class="rounded max-width: 80%" src="images/cedar-tree-logo.jpg"></div>
+		</div>
+	</div><iframe allowfullscreen frameborder="0" height="450" src="https://maps.google.com/maps?ll=40.717318,-74.000041&output=embed&iwloc=near&z=13" style="border:0; filter:color()" width="100%"></iframe> <!-- Scripts should be loaded at the bottom of the body and must go in this order -->
+	 
+	<script src="js/jquery-3.2.1.min.js">
+	</script> 
+	<script src="js/popper.min.js">
+	</script> 
+	<script src="js/bootstrap.min.js">
+	</script> 
+	<script src="js/script.js">
+	</script>
+</body>
+</html>

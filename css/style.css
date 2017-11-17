@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+.navbar {
+    background-color: #CB4F3C;
+    color: #FFF;
+    font-family: 'Libre Baskerville';
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.navbar-nav {
+    color: #FFF;
+}
+
+.nav-link {
+    color: #FFF;
+}
+
+.nav-link:hover {
+    color: #5CA88D;
+}
+
+/*index styles*/
+#carouselIntro {
+  width: 100%;
+  max-height: 400px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#blurb-index {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.no-underline:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.no-underline {
+    color: black;
+}
+
+
+
+.jumbotron-about {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 10px;
+    max-height: 50%;
+    max-width: 100%;
+    min-height: 20%;
+    min-width: 30%;
+    background-image: url("../images/santorini-greece.jpeg");
+    background-size: cover;
+}
+
+.masonry-container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.masonry-item {
+    padding: 2px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/*contact page*/
+.jumbotron-contact {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 10px;
+    max-height: 50%;
+    max-width: 100%;
+    min-height: 20%;
+    min-width: 30%;
+    background-image: url("../images/contact-page-main.jpeg");
+    background-size: cover;
+    background-position: bottom;
+    text-align: bottom;
+    font-family: 'Libre Baskerville';
+}
+
+.flex-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px 15px 0px;
+}
+.container-contact {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info {
+    font-family: 'Libre Baskerville';
+    text-align: left;
+    padding: 10px;
+}
+
+.google-map {
+    position: relative;
+    padding-bottom: 90%; // (450 ÷ 500 = 0.9 = 90%)
+    height: 0;
+    overflow: hidden;
+}
+
+/*menu styles*/
+ h5 {
+   font-family: 'Libre Baskerville';
+ }
+ 
+.sides {
+    font-family:'Libre Baskerville';
+}
+
+.desserts {
+    font-family:'Libre Baskerville';
+    
+}
+.images {
+    border-bottom-width:10px;
+}
+
+.box {width: 100px; 
+    height: 100px; 
+    background-color: #CB4F3C; 
+    margin-left: 10px; 
+    margin-right: 10px; 
+    margin-bottom: 20px; 
+    display: inline-block; 
+    color: white; 
+    font-size: 15pt;
+    font-family: 'Libre Baskerville';
+    text-align: center;
+}
+
+.selected {
+    background-color: #5CA88D;
+}
