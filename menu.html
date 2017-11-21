@@ -161,58 +161,84 @@
        <a class="list-group-item list-group-item" href="#">lemon cake $6</a>
    </div>
    
-       
-<!-- quiz -->
-<div class="quiz">
-	<h1>Not Sure What to Order? Let Us Help You</h1>
-	<h3>Question One</h3>
-	<div class="one">
-		<div class="box a">
-			Tomatoes
-		</div>
-		<div class="box b">
-			Kebabs
-		</div>
-	</div>
-	<h3>Question Two</h3>
-	<div class="two">
-		<div class="box a">
-			Insalate
-		</div>
-		<div class="box b">
-			Lamb
-		</div>
-	</div>
-	<h3>Question Three</h3>
-	<div class="three">
-		<div class="box a">
-			Falafel
-		</div>
-		<div class="box b">
-			Chicken
-		</div>
-	</div>
-	<h3>Question Four</h3>
-	<div class="four">
-		<div class="box a">
-			Potatoes
-		</div>
-		<div class="box b">
-			Steak
-		</div>
-	</div><button class="submit">Go!</button>
-	<h2><span></span></h2>
+<!-- quiz new
+<h3> Cedar Cafe Quiz</h3>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">What is hummus?</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions">Is baklava a dessert or vegetable?</p>
+<input type = "radio" id = "mc" name = "question2" value = "dessert"> dessert<br>
+<input type = "radio" id = "mc" name = "question2" value = "vegetable"> vegetable<br>
+
+<p class = "questions">Is baba ghannouj a vegetable or dessert?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "vegetable"> vegetable<br>
+<input type = "radio" id = "mc" name = "question3" value = "dessert"> dessert<br>
+
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
 </div>
-<!-- NEW CODE -->
-    <!-- quote generator -->
-    <div id="quoteDisplay">
-        <!-- Quotes will display here -->
+-->
+
+<!-- quiz -->
+<center>
+<div class="quiz">
+    <h1> Which Do You Prefer? </h1>
+
+    <h3>Question One</h3>
+    <div class="one">
+           <div class="box a">
+            Tomatoes
+            </div>
+            <div class="box b">
+            Kebabs
+            </div>
     </div>
-    <!-- Center is added for button placement -->
-    <center>
-        <button class="quotes" onclick="newQuote()">What Should I Order?</button>
-    </center>
-    <!-- END NEW CODE -->
+    <h3>Question Two</h3>
+    <div class="two">
+           <div class="box a">
+            Salad
+            </div>
+            <div class="box b">
+            Lamb
+            </div>
+    </div>
+    <h3>Question Three</h3>
+    <div class="three">
+           <div class="box a">
+            Falafel
+            </div>
+            <div class="box b">
+            Chicken
+            </div>
+    </div>
+    <h3>Question Four</h3>
+    <div class="four">
+           <div class="box a">
+            Potatoes
+            </div>
+            <div class="box b">
+            Steak
+            </div>
+    </div>
+<button class="submit">Go!</button>
+<h2><span></span></h2>
+</div>
+</center>
+
  
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/popper.min.js"></script>
